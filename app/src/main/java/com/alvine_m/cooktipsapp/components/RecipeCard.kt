@@ -60,7 +60,8 @@ fun RecipeCard(
                     for (ingredients in recipe.ingredients) {
                         Text(
                             text = ".$ingredients",
-                            style = MaterialTheme.typography.bodyMedium
+                            style = MaterialTheme.typography.bodyMedium,
+                            fontWeight = FontWeight.Black
                         )
                     }
                 }
